@@ -1,0 +1,39 @@
+Tema Mark:
+
+2. Creează o clasă numită Student care să aibă următoarele caracteristici:
+- Variabile de instanță nume, varsta și nota de tip String, int, respectiv double.
+- Un constructor care inițializează toate variabilele de instanță.
+- O metodă afiseazaDetalii() care afișează detaliile studentului.
+3. Creează o clasă numită Masina care să aibă următoarele caracteristici:
+- Variabile de instanță marca, model și an de tip String, String, respectiv int.
+- Un constructor care inițializează toate variabilele de instanță.
+- O metodă afiseazaDetalii() care afișează detaliile mașinii.
+4. Creează o clasă numită Cerc care să aibă următoarele caracteristici:
+- O variabilă de instanță raza de tip double.
+- O metodă setRaza(double raza) pentru a seta valoarea razei.
+- O metodă aria() care returnează aria cercului 
+- O metodă perimetru() care returnează perimetrul cercului 
+5. Creează o clasă numită Produs care să aibă următoarele caracteristici:
+- Variabile de instanță nume, pret și cantitate de tip String, double, respectiv int.
+- Metode setNume(String n), setPret(double p) și setCantitate(int c) pentru a seta valorile variabilelor de instanță.
+- O metodă afiseazaDetalii() care afișează detaliile produsului.
+- O metodă calculeazaValoareStoc() care returnează valoarea totală a stocului (folosind formula: pret * cantitate).
+
+Hinturi:
+- constructorul este o functie ce are acelasi nume precum clasa, respectiv ea se apeleaza cand se creaza acel obiect (https://www.programiz.com/java-programming/constructors)
+- cand initializezi o variabila in constructor folosesti cuvantul cheie "this" (https://www.w3schools.com/java/ref_keyword_this.asp), ex:
+public class Cerc {
+public Cerc(double raza) {
+        this.raza = raza;
+    }
+}
+- valoarea lui pi -> Math.PI
+
+Probleme diverse:
+1. Se dă un număr natural n. Să se afişeze în ordine crescătoare, primii n termeni ai şirului lui Fibonacci.
+2. Se dă un număr natural n și două numere întregi a și b. Să se afişeze în ordine crescătoare, termenii şirului lui Fibonacci generalizat cu valoarea absolută mai mică sau egală cu n.
+3. Se citește un vector cu n elemente, numere naturale. Să se înlocuiască ultimul element prim din vector cu 0, apoi să se afișeze vectorul.
+4. Se citește un număr natural n. Să se determine suma divizorilor săi.
+5. Se citește un număr natural n. Să se determine suma divizorilor impari ai săi.
+6. Se dă un număr natural n. Calculați pătratul celui mai mic divizor propriu al său.
+

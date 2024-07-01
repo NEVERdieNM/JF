@@ -1,0 +1,59 @@
+PROBLEME 25.06.2024 - JF
+
+1. Creați un program care caută un număr într-un vector.
+2. Creează un program Java care să afișeze valoarea unei variabile înainte și după folosirea operatorilor de incrementare și decrementare (prefixare și postfixare).
+3. Adaptați exercițiul de la clasă pentru a căuta un număr aleatoriu mai mic de 100;
+4. Scrie un program Java care să calculeze și să afișeze media aritmetică a elementelor unui array de numere întregi.
+5. Scrie un program Java care să inverseze elementele unui array de numere întregi.
+ex: ArrayInitial = [1, 2, 3, 4, 5]
+ArrayInversat = [5, 4, 3, 2, 1]
+6. Se dă un număr natural n. Afișați în ordine crescătoare numerele naturale pare nenule mai mici sau egale cu n.
+7. Se dă un număr natural nenul n. Afișați toate perechile x y cu proprietatea că x + y = n și 0 < x ≤ y.
+8. Se dă n. Să se afișeze 10^n.
+9. Se dau n numere naturale. Calculați media lor geometrică.
+10. Se citește numărul natural n. Să se afișeze următoarea piramidă de numere:
+1
+1 2
+1 2 3
+.......
+1 2 3 ... n
+11. Se citește numărul natural n, şi un caracter c. Să se afișeze următorul paralelogram:
+c
+cc
+ccc
+....
+ccc...c
+ccc...c
+ cc...c
+   ....
+     cc
+      c
+12. Se dă un poligon regulat cu n laturi cu l lungimea unei laturi. Aflați aria poligonului.
+
+
+
+
+Tema:
+1. Scrie un program Java care să verifice dacă un array conține o secvență specifică de numere.
+2. Scrie un program Java care să afișeze elementele unui array folosind bucla for-each.
+3. Prietenul nostru, Zolly, a învățat la scoală despre ridicarea la putere. Ajutați-l să calculeze a^b
+4. Se dă un număr natural n. Afișați în ordine descrescătoare primele n numere naturale impare.
+5. Se dă un număr natural n. Afișați în ordine descrescătoare numerele naturale impare mai mici sau egale cu n.
+6. Se dau n numere naturale. Calculați media armonică a celor n numere citite cu 2 zecimale exacte.
+7. Se dă un număr n. Afișați numărul n * 10^a.
+8. Se citește numărul natural n, şi un caracter c. Să se afișeze următorul paralelogram:
+   c
+     cc
+    ccc
+   ....
+ccc...c
+ccc...c
+cc...c
+....
+cc
+c
+9. Se dau lungimile laturilor unui triunghi. Aflați raza cercului circumscris triunghiului.
+10. Se dau lungimile laturilor unui triunghi ABC. Aflați lungimile medianelor duse din A,B si C.
+11. Se dă raza unei sfere. Aflați aria și volumul sferei.
+12. Se citește un vector cu n elemente, numere naturale distincte. Să se afișeze elementele cuprinse între elementul cu valoarea minimă și cel cu valoare maximă din vector, inclusiv acestea.
+13. Scrieți un program care cere de la tastatură un număr real (într-o variabilă de tip double) și care afișează prima cifră care se află după virgulă în valoarea citită.
