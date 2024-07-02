@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex11 {
+public class Ex20 {
 
     public static void main(String[] args) {
         
@@ -14,15 +14,13 @@ public class Ex11 {
         for (int i = 0; i < n*2; i++) {
             for (int j = 0; j < n; j++) {
                 if (i < n) {
-                    if (j < i + 1) {
+                    if (j < ((n-1) - i)) {
+                        System.out.print(" ");
+                    } else {
                         System.out.print(c);
                     }
-                }
-                else {
-                    if (j+n <= i) {
-                        System.out.print(" ");
-                    }
-                    else {
+                } else {
+                    if (j < n*2 - i) {
                         System.out.print(c);
                     }
                 }
