@@ -11,14 +11,14 @@ public class Ex00 {
         n = scanner.nextInt();
         System.out.println();
 
-        int sum = 0;
+        int suma = 0;
         int i = 0;
         while(i <= n) {
-            sum += i;
+            suma += i;
             i++;
         }
 
-        System.out.println("sum: " + sum);
+        System.out.println("Suma: " + sum);
 
         scanner.close();
     }

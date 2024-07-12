@@ -1,0 +1,15 @@
+-1. Write a program to find the sum of natural numbers up to n using a while loop.
+0.Write a program that prints numbers from 1 to 10 using a while loop.
+1. Scrie un program care citește un număr întreg de la tastatură și calculează suma cifrelor sale folosind o buclă "while".
+2.Scrie un program care citește n numere întregi într-un vector și apoi afișează toate elementele vectorului folosind o buclă "while".
+3. Scrie un program care citește un număr întreg de la tastatură și afișează inversul acestuia folosind o buclă "while".
+4. Scrie un program care citește un număr întreg de la tastatură și verifică dacă acesta este un număr prim folosind o buclă "while".
+5. Scrie un program care citește un număr întreg de la tastatură și calculează factorialul acestuia folosind o buclă "while".
+6. Scrie un program care afișează primele n numere din șirul Fibonacci folosind o buclă "while". Numărul n va fi citit de la tastatură.
+7. Scrie un program care citește n numere întregi într-un vector și calculează suma elementelor vectorului folosind o buclă "while".
+8. Scrie un program care citește n numere întregi într-un vector și găsește valoarea maximă și minimă dintre elementele vectorului folosind o buclă "while".
+9. Scrie un program care citește n numere întregi într-un vector și calculează media aritmetică a elementelor vectorului folosind o buclă "while".
+10. Scrie un program care citește n numere întregi într-un vector și numără câte dintre ele sunt pozitive și câte sunt negative folosind o buclă "while".
+11. Write a program that presents a menu to the user until they choose to exit. Use a do-while loop to repeat the menu.
+12. Infinite Loop with Break: Write a program that creates an infinite loop and breaks out of it when a condition is met. (ex daca un nr = 10)
+13. Nested Loops: Write a program to print a multiplication table for numbers 1 to 5 using nested loops.

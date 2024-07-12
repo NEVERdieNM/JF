@@ -1,0 +1,33 @@
+1.Creați o clasă denumită "Angajat", care să prezinte:
+➢ Un constructor (cu parametrii "varsta" și "salariu").
+➢ Două atribute denumite "varsta" și "salariu", care să primească valori la
+construirea obiectului.
+➢ Un atribut denumit "oreDeMunca", care va fi marcat cu modificatorul "private".
+➢ O metodă denumită "setOreDeMunca", ce va oferi o valoarea dată
+prin parametru atributului "oreDeMunca" doar dacă aceasta este cuprinsă între 2
+și 8.
+➢ O metodă denumită "printOreDeMunca", care să afișeze atributul "oreDeMunca".
+
+2. Creează o clasă Masina care să prezinte:
+➢Un constructor (cu parametrii marca și model).
+➢Două atribute denumite marca și model, care să primească valori la construirea obiectului.
+➢Un atribut denumit viteza, care va fi marcat cu modificatorul private.
+➢O metodă denumită setViteza, ce va oferi o valoare dată prin parametru atributului viteza doar dacă aceasta este cuprinsă între 0 și 200.
+➢O metodă denumită printViteza, care să afișeze atributul viteza.
+
+3. Verificați dacă un număr este un număr Armstrong.
+Example:
+371 = (3*3*3)+(7*7*7)+(1*1*1)
+where:
+(3*3*3)=27
+(7*7*7)=343
+(1*1*1)=1
+So:
+27+343+1=371
+
+4. Verificați dacă un anumit număr este sau nu palindrom.
+5. Aflați frecvența fiecărui element dintr-un vector
+6. Creează o clasă Matematica care să conțină o metodă factorial ce primește un parametru n și returnează factorialul acestuia.
+7. Creează o clasă Numere care să conțină o metodă sumaPatrate ce primește un array de numere întregi și returnează suma pătratelor elementelor din array.
+8. Creează o clasă Fibonacci care să conțină o metodă genereazaSecventa ce primește un parametru n și returnează un array cu primele n numere din secvența Fibonacci.
+9. Creează o clasă Cifre care să conțină o metodă sumaCifrelor ce primește un număr întreg și returnează suma cifrelor acestuia.
