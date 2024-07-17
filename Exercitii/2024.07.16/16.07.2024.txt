@@ -1,0 +1,15 @@
+Ex 1: Joc simplu de ghicit un număr
+Descriere:
+Acest joc implică generarea unui număr aleatoriu între 1 și 100, pe care utilizatorul trebuie să îl ghicească. După fiecare încercare, programul oferă un indiciu, indicând dacă numărul ghicit este prea mare sau prea mic.
+
+Ex 2: Simulare de joc de zaruri
+Descriere:
+Acest joc implică aruncarea a două zaruri de către utilizator și computer. Câștigătorul fiecărei runde este determinat de suma zarurilor, iar punctele sunt totalizate pentru a determina câștigătorul final.
+
+Ex 3: Program de gestionare a stocurilor
+Descriere:
+Acest program permite utilizatorului să gestioneze stocurile dintr-un magazin. Utilizatorul poate adăuga produse, actualiza stocurile și vizualiza stocurile curente.
+
+Ex 4: Generator de parole securizate
+Descriere:
+Acest program generează parole securizate de lungime specificată de utilizator, folosind o combinație de litere mari și mici, cifre și caractere speciale.
