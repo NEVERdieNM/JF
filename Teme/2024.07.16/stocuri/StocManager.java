@@ -10,14 +10,14 @@ public class StocManager
     public static String instructiuni =     "Instructiuni:\n" +
                                             "1. pentru a iesi din program apasati <q>.\n" +
                                             "2. pentru a afisa stocurile folositi comanda <ls>.\n" +
-                                            "3. pentru a modifica stocul unui produs folositi comanda <mod> urmata de indexul produsului pe care il puteti afla folosind <ls>.\n" + 
+                                            "3. pentru a modifica stocul unui produs folositi comanda <update> urmata de indexul produsului pe care il puteti afla folosind <ls>.\n" + 
                                             "4. pentru a sterge un stoc folositi comanda <rm> urmata de indexul produsului pe care vreti sa il stergeti.\n" +
                                             "5. pentru a curata terminalul folositi comanda <cls>.\n" +
                                             "6. pentru a afisa instructiunile folositi comanda <help>.\n" +
                                             "7. pentru a afisa doar comenzile folositi comanda <commands>" +
                                             "\n";
 
-    public static String[] commenzi = {"<q>","<ls>","<add>","<rm>","<mod>","<cls>","<help>","<commands>"};
+    public static String[] commenzi = {"<q>","<ls>","<add>","<rm>","<update>","<cls>","<help>","<commands>"};
 
     public static void main(String[] args) 
     {
@@ -35,7 +35,7 @@ public class StocManager
             switch(input) 
             {
                 case "q":
-                    System.exit(0);
+                    running = false;
                     break;
                 case "ls":
                     afiseazaStocuri();
@@ -65,7 +65,7 @@ public class StocManager
                         stocuri[indexAdd] = new Produs(numeProdus, stocInitial);
                     }
                     break;
-                case "mod":
+                case "update":
                     int indexM = scanner.nextInt();
                     if (indexM < 0 || indexM >= stocuri.length)
                     {
@@ -78,7 +78,7 @@ public class StocManager
                     }
                     else
                     {
-                        System.out.println("    <nume>    pentru a modifica numele.\n    <stoc>    pentru a seta un stocul.\n    <inc> pentru a incrementa sau decrementa stocul.");
+                        System.out.println("    <nume>    pentru a modifica numele.\n    <stoc>    pentru a seta stocul.\n    <inc>     pentru a incrementa sau decrementa stocul.");
                         String operatiune = scanner.next();
                         scanner.nextLine();
                         switch (operatiune) {
@@ -138,7 +138,7 @@ public class StocManager
                     break;
                 case "help":
                     scanner.nextLine();
-                    System.out.println(instructiuni);
+                    System.out.println(instructiuni + "\n" +Arrays.toString(commenzi));
                     break;
                 case "commands":
                     scanner.nextLine();
