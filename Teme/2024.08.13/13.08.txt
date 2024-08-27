@@ -1,0 +1,29 @@
+1. Scrieți un program care primește un vector de numere întregi și afișează câte dintre aceste numere sunt pozitive și câte sunt negative.
+ex: [1,5,9,8] output-> nr pare: 1, nr impare 3
+2. Scrieți un program care primește o matrice de numere întregi și găsește cel mai mare număr din matrice.
+3. Scrieți un program care primește un vector de numere întregi și inversează ordinea elementelor din vector folosind un while loop.
+ex: [1,2,3] output -> [3,2,1]
+4. Scrieți un program care calculează și afișează suma elementelor de pe diagonala principală a unei matrici pătratice.
+5. Scrieți un program care primește un vector de numere întregi și afișează câte dintre acestea sunt pare și câte sunt impare.
+6. Scrieți un program care primește o matrice de numere întregi și calculează media elementelor din aceasta.
+7. Scrieți un program care generează primele n numere din șirul Fibonacci folosind un while loop. Numărul n este citit de la tastatură.
+8. Scrieți un program care primește un șir de caractere și determină câte vocale și câte consoane conține.
+9. Scrieți un program care sortează un vector de numere întregi în ordine crescătoare folosind algoritmul Bubble Sort.
+10.  Scrieți un program care verifică dacă un cuvânt introdus de utilizator este palindrom (se citește la fel de la stânga la dreapta și de la dreapta la stânga).
+11. Scrieți un program care calculează și afișează suma elementelor de pe diagonala secundară a unei matrici pătratice.
+12. Scrieți un program care primește o matrice pătratică de dimensiune n x n și o rotește cu 90 de grade în sensul acelor de ceasornic. Afișați matricea rezultată.
+ex.
+Matricea originală:
+1 2 3 
+4 5 6 
+7 8 9 
+
+Matricea rotită cu 90 de grade în sensul acelor de ceasornic:
+7 4 1 
+8 5 2 
+9 6 3 
+
+13. O matrice pătratică este considerată magică dacă suma elementelor fiecărui rând, fiecărei coloane și a ambelor diagonale este aceeași. Scrieți un program care verifică dacă o matrice dată este magică.
+14. Scrieți un program care primește o matrice de caractere și un cuvânt, și verifică dacă acest cuvânt apare în matrice orizontal, vertical sau diagonal.
+15. Scrieți un program care găsește și afișează cea mai lungă secvență de numere crescătoare consecutive dintr-un vector.
+16. Scrieți un program care generează și afișează toate permutările posibile ale unui șir de caractere dat.
