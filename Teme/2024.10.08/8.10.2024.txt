@@ -1,0 +1,17 @@
+1. Write a Java program to create an interface Shape with the getArea() method. Create three classes Rectangle, Circle, and Triangle that implement the Shape interface. Implement the getArea() method for each of the three classes.
+2. Write a Java program to create a Animal interface with a method called bark() that takes no arguments and returns void. Create a Dog class that implements Animal and overrides speak() to print "Dog is barking".
+3. Write a Java program to create an interface Flyable with a method called fly_obj(). Create three classes Spacecraft, Airplane, and Helicopter that implement the Flyable interface. Implement the fly_obj() method for each of the three classes.
+4. Write a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized. Create a class Rectangle that implements the Resizable interface and implements the resize methods.
+5. Creează o interfață Vehicle cu metoda drive(). Implementează această interfață în două clase: Car și Bike. Ambele clase trebuie să implementeze metoda drive() într-un mod diferit, pentru a ilustra comportamentele diferite ale vehiculelor.
+6. Creează o interfață numită Calculator cu metode pentru adunare, scădere, înmulțire și împărțire (add, subtract, multiply, divide). Apoi, implementează această interfață într-o clasă numită SimpleCalculator. Simulează operațiile matematice folosind această clasă.
+7. Creează o interfață numită Animal care să conțină două metode abstracte: sound() (sunetul pe care îl face animalul) și move() (modul în care se mișcă animalul). Apoi, implementează această interfață într-o clasă numită Dog și într-o altă clasă numită Bird.
+8. Creează două interfețe: Flyable și Swimmable. Ambele vor avea o metodă comună numită move(). Creează o clasă Duck care implementează ambele interfețe și rezolvă problema metodei comune move().
+9. Creează o interfață Playable cu metoda play(). Creează o clasă abstractă Instrument care implementează interfața Playable și adaugă o metodă abstractă tune(). Implementează două clase concrete: Piano și Guitar, care extind clasa Instrument.
+10. Creează o interfață funcțională numită Operation cu o metodă execute(int a, int b) care primește doi parametri de tip int și returnează un int. Folosește expresii lambda pentru a defini diferite operații matematice (adunare, scădere, înmulțire, împărțire) și apelează-le.
+11. Write an interface that declares two methods getArea( ) and getPerimeter( ). We need to use units as m², m, cm, ft, etc. as constants.
+12. Write an interface with 3 constants (two with values and one without) and 3 methods (two methods have the same signature but different number of parameters). Implement it into a class.
+13. Create an abstract class 'Bank' with an abstract method 'getBalance'. $100, $150 and $200 are deposited in banks A, B and C respectively. 'BankA', 'BankB' and 'BankC' are subclasses of class 'Bank', each having a method named 'getBalance'. Call this method by creating an object of each of the three classes.
+
+Materiale suplimentare:
+-> https://www.w3resource.com/java-exercises/index-interface.php
+-> https://www.w3schools.com/java/java_interface.asp

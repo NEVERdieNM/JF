@@ -1,0 +1,14 @@
+1. Enunț: Creează o clasă „Animal” cu o metodă „sunet()” care afișează un mesaj generic precum „Animalul scoate un sunet”. Apoi, creează o clasă derivată „Câine” care suprascrie metoda „sunet()” pentru a afișa „Câinele latră”.
+
+2. Enunț: Creează o clasă „Vehicul” cu o metodă „tip()” care returnează o instanță de tipul „Vehicul”. Suprascrie această metodă într-o clasă derivată „Mașină”, dar asigură-te că metoda returnează o instanță de „Mașină” în loc de „Vehicul”.
+
+3. Enunț: Creează o clasă „Matematica” care conține două metode „adunare()”. Prima metodă adună două numere întregi, iar a doua metodă adună trei numere întregi.
+
+4. Enunț (exercitiu cu ambiguitate): Creează o clasă „Calculator” care conține două metode „adauga()”. Prima metodă primește două parametre de tip „Integer”, iar a doua metodă primește două parametre de tip „Double”. Verifică ce se întâmplă atunci când chemi metoda „adauga(null, null)”.
+
+5. Scrie un program care citește două matrice pătratice și calculează produsul lor.
+
+6. Scrie un program care citește o matrice m×n și afișează transpunerea ei (interschimbarea liniilor cu coloanele).
+7. Write a method to check whether an year (integer) entered by the user is a leap year or not.
+8. Write a method to compute the sum of the digits in an integer.
+EX suplimentar-HARD: 9. Enunț: Scrie un program care rezolvă un labirint de n×n, găsind un drum de la începutul labirintului (poziția de start) la sfârșitul acestuia (poziția finală), folosind algoritmul de backtracking.

@@ -1,0 +1,11 @@
+1. Scrie un program care să convertească un număr de tip byte într-un int și apoi într-un long.
+2. Creează un program care să arate conversia unui număr de tip int într-un float, iar apoi într-un double.
+3. Scrie un program care să primească un număr real de tip double și să-l transforme într-un int folosind casting explicit.
+4. Scrie un program care să arate conversia unui caracter (char) într-un cod ASCII (int) și invers.
+5. Scrie un program care să convertească un număr short într-un byte, dar să demonstreze ce se întâmplă atunci când numărul depășește limita maximă a unui byte.
+6. Creează două clase: Animal și Pisica, unde Pisica extinde Animal. Demonstrează cum poți face casting între aceste tipuri de obiecte.
+7. Extinde exercițiul anterior astfel încât să incluzi verificarea tipului de obiect înainte de a face downcasting, folosind operatorul instanceof.
+8. Adaugă o nouă clasă, Caine, care extinde Animal. Demonstrează cum se comportă castingul atunci când există mai multe clase care extind aceeași superclasă.
+9. You have an array of doubles. Print all the values as integers values.
+10. You have a parent class Accessories and two child classes Battery and Cover. Create a
+scenario for downcast and upcast with these classes.

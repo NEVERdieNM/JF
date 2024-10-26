@@ -1,0 +1,19 @@
+1. Create an abstract class “Shape” with abstract methods “getArea()” and “getPerimeter()”. Implement two subclasses “Rectangle” and “Circle” which extend “Shape” and implement the abstract methods. Create a “Square” class which extends “Rectangle” and overrides the necessary methods. Create objects of all classes and test their behavior.
+2. Create an abstract class “Employee” with abstract methods “calculateSalary()” and “displayEmployeeDetails()”. Implement two subclasses “Manager” and “Worker” which extend “Employee” and implement the abstract methods. Create a “SalesPerson” class which extends “Manager” and overrides the necessary methods. Create objects of all classes and test their behavior.
+3.  Write a Java program to create an abstract class Animal with an abstract method called sound(). Create subclasses Lion and Tiger that extend the Animal class and implement the sound() method to make a specific sound for each animal.
+4. Write a Java program to create an abstract class Shape3D with abstract methods calculateVolume() and calculateSurfaceArea(). Create subclasses Sphere and Cube that extend the Shape3D class and implement the respective methods to calculate the volume and surface area of each shape.
+5. Write a Java program to create an abstract class Person with abstract methods eat() and exercise(). Create subclasses Athlete and LazyPerson that extend the Person class and implement the respective methods to describe how each person eats and exercises.
+6. Create an abstract class Parent with a method called message. It has two subclasses each having a method with the same name message that prints "This is first subclass" and "This is second subclass" respectively. Call the methods message by creating an object for each subclass.
+7. Write a Java program to create an abstract class Bird with abstract methods fly() and makeSound(). Create subclasses Eagle and Hawk that extend the Bird class and implement the respective methods to describe how each bird flies and makes a sound.
+8. Write a Java program to round a float number to specified decimals.
+9.  Write a Java program to count the absolute distinct value in an array.
+10. Write a Java program to get a number from the user and print whether it is positive or negative.
+11. Write a Java program to find the index of an array element.
+12. Write a Java program to remove a specific element from an array.
+13. Write a Java program to insert an element (specific position) into an array.
+14. Write a Java program to find duplicate values in an array of integer values.
+Materiale suplimentare:
+- https://www.w3resource.com/java-exercises/index-abstract.php
+- https://www.studytrigger.com/article/practice-problems-on-abstract-class-in-java/
+- https://www.geekster.in/articles/abstraction-in-java/
+- https://www.codewithharry.com/videos/java-tutorials-for-beginners-60/
