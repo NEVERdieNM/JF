@@ -1,0 +1,32 @@
+1. Write a Java recursive method to calculate the factorial of a given positive integer
+2. Write a Java recursive method to calculate the sum of all numbers from 1 to n.
+3. Write a Java recursive method to calculate the nth Fibonacci number.
+4. Write a Java recursive method to calculate the exponentiation of a number (base) raised to a power (exponent).
+5. Write a Java recursive method to reverse a given string.
+6. Creează o clasă Java în care:
+Declari un Integer obiect și îi atribui valoarea 5.
+Faci unboxing pentru a-l transforma într-o variabilă primitivă int.
+Faci autoboxing pentru a transforma un int într-un Integer.
+7. Scrie o funcție iterativă pentru a calcula același factorial.
+8.Creează o clasă Student care să conțină câmpurile name și age.
+Suprascrie metoda toString() pentru a returna un șir descriptiv despre student.
+Suprascrie metoda equals() pentru a compara două obiecte Student în funcție de name și age.
+
+Tema
+1. Write a Java recursive method to check if a given string is a palindrome.
+2. Creează o clasă Java care să:
+Declari un Double obiect și îi atribui valoarea 12.5.
+Convertești acest Double într-un double primitiv (unboxing).
+Transformi acel double într-un Integer folosind autoboxing.
+3. Creează o clasă Java care să:
+Declari două obiecte Integer cu aceleași valori și verifici dacă sunt egale folosind ==.
+Verifici dacă sunt egale folosind metoda equals().
+Explică de ce cele două metode pot da rezultate diferite. 
+4. Creează o clasă Java care să:
+Primească un String care reprezintă un număr (de exemplu, "123").
+Convertească acest String în tipuri primitive int, double și float folosind metodele statice din clasele Wrapper.
+Afisează valorile convertite.
+
+Link-uri ajutatoare: 
+- https://www.pbinfo.ro/articole/3873/recursivitate
+- https://www.pbinfo.ro/probleme/categorii/81/recursivitate
