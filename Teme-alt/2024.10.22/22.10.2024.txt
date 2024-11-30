@@ -1,0 +1,22 @@
+1. Context: Vrei să scrii un program care citește două numere de la utilizator și le împarte. În cazul în care utilizatorul introduce 0 pentru împărțitor, trebuie să tratezi acest caz și să afișezi un mesaj de eroare adecvat.
+Cerință: Scrie un program care folosește blocul try-catch pentru a prinde excepția ArithmeticException. Dacă se încearcă împărțirea la zero, programul trebuie să afișeze un mesaj "Împărțirea la zero nu este permisă!".
+2. Context: Uneori, utilizatorii introduc date greșite, cum ar fi text în loc de numere. Vrei să creezi un program care să valideze corect introducerea datelor numerice.
+Cerință: Scrie un program care citește un număr de la tastatură și tratează excepția NumberFormatException în cazul în care utilizatorul introduce un text sau altceva decât un număr valid. Dacă introduce un număr invalid, afișează mesajul: "Datele introduse nu sunt valide!".
+3. Context: Uneori, programul accesează un index dintr-un array care nu există, ceea ce provoacă o excepție. Vrei să previi acest lucru folosind blocuri de excepții.
+Cerință: Scrie un program care definește un array de lungime 5 și încearcă să acceseze un element care se află în afara limitelor array-ului. Tratează excepția ArrayIndexOutOfBoundsException și afișează mesajul: "Indexul nu este valid!".
+4. Context: Câteodată, este util să creezi excepții personalizate pentru a valida date specifice într-o aplicație. De exemplu, poți avea o cerință ca utilizatorii să aibă cel puțin 18 ani.
+Cerință: Creează o excepție personalizată numită InvalidAgeException. Scrie un program care cere vârsta unui utilizator și aruncă această excepție dacă vârsta este sub 18 ani. Afișează un mesaj de eroare: "Vârsta trebuie să fie cel puțin 18 ani!".
+5. Context: În Java, lucrul cu resurse (fișiere, fluxuri de date etc.) necesită închiderea acestor resurse după utilizare pentru a preveni scurgerile de memorie.
+Cerință: Scrie un program care citește date dintr-un fișier folosind blocul try-with-resources, astfel încât fișierul să fie închis automat după citire. Tratează excepțiile de tip IOException și afișează un mesaj adecvat dacă fișierul nu este găsit.
+
+Tema:
+1. Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.
+2. Write a Java program to create a method that reads a file and throws an exception if the file is not found.
+3. Write a Java program that reads a file and throws an exception if the file is empty. 
+4. Write a Java program that reads a list of integers from the user and throws an exception if any numbers are duplicates.
+
+Materiale suplimentare:
+- https://www.w3resource.com/java-exercises/exception/index.php
+- https://home.engineering.iastate.edu/alexs/classes/2007_Fall_207/lab_manual/chapter10_lab.pdf
+- https://www.youtube.com/watch?v=6NHj1bWSRUw&list=PLFWJG7Ul6HBdK8eHhnqpVUJbUrfYd3blT
+- https://www.youtube.com/watch?v=1XAfapkBQjk

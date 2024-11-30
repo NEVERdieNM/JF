@@ -1,0 +1,8 @@
+1. Creează o clasă generică Box care să permită stocarea unui singur element de tip generic.
+2. Creează o metodă generică printArray care să primească un array de elemente generice și să le afișeze.
+3. Creează o clasă NumericBox care să accepte doar tipuri numerice (Integer, Double, etc.).
+4. Creează o metodă addNumbers care să accepte o listă de elemente care sunt suptipuri ale Number și să calculeze suma lor.
+5. Creează un sistem simplificat de conturi bancare, unde:
+-Există o clasă generică BankAccount<T extends AccountType>, care poate fi folosită pentru a crea conturi de tip SavingsAccount (Cont de Economii) sau InvestmentAccount (Cont de Investiții).
+-Fiecare tip de cont poate avea operații specifice: SavingsAccount permite depunerea și retragerea de bani, iar InvestmentAccount permite doar depunerea și retragerea (cu o taxă de retragere de 1%).
+-Metodele de depunere și retragere să fie generice și să funcționeze doar pe tipul de cont corespunzător.

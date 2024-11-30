@@ -1,0 +1,7 @@
+1. Cerinta: Realizați o aplicație Java care să grupeze animalele în funcție de habitat (apă, aer, uscat). Aplicația va conține următoarele componente:
+- Enum Habitat cu instanțele WATER, AIR, LAND.
+- O clasă abstractă Animal care să includă atribute precum name și habitat.
+- Clase concrete precum Fish, Bird și Mammal, fiecare reprezentând un tip de animal.
+- O clasă Zoo care să permită gruparea și afișarea animalelor pe habitate.
+2. Cerinta: Realizați o aplicație care să permită gestionarea unui magazin. Produsele vor fi organizate pe categorii (FOOD, ELECTRONICS, CLOTHING), iar aplicația va permite adăugarea de produse și afișarea acestora pe categorii.
+3. Cerinta: Realizați o aplicație care să gestioneze o bibliotecă virtuală. Aplicația va permite adăugarea de cărți, clasificarea acestora după gen (FICTION, NONFICTION, SCIENCE), și afișarea cărților pe genuri.
