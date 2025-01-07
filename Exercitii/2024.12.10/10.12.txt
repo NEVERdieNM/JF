@@ -1,0 +1,16 @@
+1. Creează o clasă principală numită Masina, care conține:
+
+O clasă statică inner numită Motor, care are o metodă startEngine() ce afișează un mesaj precum „Motorul a pornit!”.
+O clasă inner non-statică numită Roti, care are o metodă rotate() ce afișează un mesaj precum „Roțile se învârt”.
+O metodă constructCar() în clasa principală, care creează instanțe ale claselor Motor și Roti și le folosește pentru a construi și porni mașina.
+2. Cerință:
+Creează o clasă principală numită Avion care reprezintă o aeronavă.
+
+Creează o clasă inner statică numită Motor, care să conțină:
+-O variabilă putere (de tip int, în CP - cai putere).
+-O metodă porneșteMotor() care afișează un mesaj precum „Motorul de X CP a pornit!”.
+Creează o clasă inner non-statică numită Aripa, care să conțină:
+-O metodă flap() care afișează un mesaj precum „Aripa bate pentru stabilizare”.
+Creează o metodă decolează() în clasa Avion, care:
+-Instanțiază un Motor și un Aripa.
+-Apelează metodele corespunzătoare pentru a simula procesul de decolare.

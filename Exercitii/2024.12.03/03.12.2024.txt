@@ -1,0 +1,10 @@
+1. Scrie un program care verifică dacă al treilea bit (de la dreapta la stânga) al unui număr este 1 sau 0. Numărul este dat ca input.
+2. Scrie un program care setează al doilea bit al unui număr la 1, fără a modifica ceilalți biți.
+3. Scrie un program care inversează toți biții unui număr.
+4. Scrie un program care numără câți biți de 1 există într-un număr.
+5. Scrie un program care verifică dacă un număr are un număr par sau impar de biți de 1.
+6. Scrie un program care, pentru un număr n, găsește cel mai mic număr mai mare decât n cu același număr de biți de 1.
+7. Să se afişeze toate numerele naturale mai mici sau egale cu n, cu proprietatea că reprezentarea lor in baza 2 are exact două cifre 1.
+8. Se dau n numere naturale. Determinaţi lungimea maximă a unei secvenţe de numere din şir cu proprietatea că în scrierea binară sunt formate doar din cifre de 1.
+
+https://infoas.ro/lectie/47/transformarea-unui-numar-din-baza-10-in-baza-2-in-c
