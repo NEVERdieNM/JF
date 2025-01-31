@@ -1,0 +1,21 @@
+1. Write a Java program to compare two strings lexicographically. Two strings are lexicographically equal if they are the same length and contain the same characters in the same positions.
+2. Write a Java program to concatenate a given string to the end of another string without using “+”.
+3. Write a Java program to find the duplicate values of an array of string values.
+4. Write a Java method to create the area of a pentagon.
+5. Scrie un program care:
+-Generază un număr aleator între 1 și 100.
+-Permite utilizatorului să ghicească numărul.
+-Dă indicii dacă numărul introdus este prea mare sau prea mic.
+-Termină jocul când utilizatorul ghicește sau după 10 încercări.
+6. Scrie o metodă care primește o matrice pătrată și calculează suma elementelor de pe diagonala principală și secundară.
+7. Scrie o metodă care primește un vector și îl rotește cu o poziție la stânga.
+Exemplu: [1, 2, 3, 4] -> [2, 3, 4, 1]
+8. Scrie un program care afișează un triunghi de stele inversat, în funcție de un număr n dat.
+Exemplu pentru n = 5:
+*****
+****
+***
+**
+*
+9. Scrie o metodă care primește un string și returnează alt string unde fiecare literă este schimbată între majusculă și minusculă.
+Exemplu: "Java123" -> "jAVA123"
